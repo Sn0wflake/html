@@ -1,0 +1,10 @@
+{
+    "name": "snow/html",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Core\\": "Core/",
+            "Http\\": "Http/"
+        }        
+    }
+}

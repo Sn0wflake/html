@@ -30,10 +30,8 @@ class LoginForm
 
     public function throw()
     {
-        dd('We are here');
-        $errors = $this->errors();
-        $attributes = $this->attributes;
-        ValidationException::throw($errors, $attributes);
+
+        ValidationException::throw($this->errors(), $this->attributes);
     }
 
    public function failed()
